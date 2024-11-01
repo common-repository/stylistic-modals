@@ -1,0 +1,85 @@
+body.post-type-stylisticmodal #modalsettings input:not([type=color]):not([type=checkbox]):not([type=radio]) {
+  width: 100% !important;
+}
+body.post-type-stylisticmodal #modalsettings h2.hndle {
+  background: #134E5E;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #71B280, #134E5E);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #71B280, #134E5E);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+  padding-left: 45px;
+}
+body.post-type-stylisticmodal #modalsettings h2.hndle * {
+  color: #fff;
+}
+body.post-type-stylisticmodal #modalsettings .inside {
+  background: #f3f3f3;
+  padding: 20px 45px;
+}
+body.post-type-stylisticmodal #showPreview {
+  background-color: #fff;
+  margin-left: 15px;
+  vertical-align: 1px;
+  font-size: 13px;
+  height: 100%;
+  display: inline-block;
+  padding: 15px 70px;
+  border-radius: 25px;
+  color: #2C8374 !important;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+body.post-type-stylisticmodal:not(.block-editor-page) #wpwrap .wp-heading-inline {
+  margin-top: 15px;
+  font-size: 35px;
+}
+body.post-type-stylisticmodal:not(.block-editor-page) #wpwrap .wp-list-table a {
+  color: #2C8374;
+}
+body.post-type-stylisticmodal:not(.block-editor-page) #wpwrap .wp-list-table a:hover {
+  color: #1f5d52;
+}
+body.post-type-stylisticmodal:not(.block-editor-page) #wpwrap .wp-list-table thead {
+  background: #134E5E;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #71B280, #134E5E);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #71B280, #134E5E);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+body.post-type-stylisticmodal:not(.block-editor-page) #wpwrap .wp-list-table thead a {
+  color: #fff;
+}
+body.post-type-stylisticmodal:not(.block-editor-page) #wpwrap .wp-list-table tbody {
+  background: #fff;
+}
+body.post-type-stylisticmodal:not(.block-editor-page) #wpwrap .wp-list-table tbody a {
+  color: #2C8374;
+}
+body.post-type-stylisticmodal:not(.block-editor-page) #wpwrap a.page-title-action {
+  background: #134E5E;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #71B280, #134E5E);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #71B280, #134E5E);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 0;
+  margin-left: 15px;
+  vertical-align: 1px;
+  font-size: 13px;
+  height: 100%;
+  display: inline-block;
+  padding: 10px 50px;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=stylistic-modal-admin.css.map */

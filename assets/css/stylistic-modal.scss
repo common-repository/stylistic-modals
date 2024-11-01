@@ -1,0 +1,20 @@
+.stylistic-modal {
+
+  .iziModal-header {
+    padding-left: 25px;
+
+    .iziModal-header-title {
+
+      &:before {
+        display: none;
+      }
+    }
+  }
+  .iziModal-content {
+    padding: 25px!important;
+
+    p {
+      font-size: 1em;
+    }
+  }
+}

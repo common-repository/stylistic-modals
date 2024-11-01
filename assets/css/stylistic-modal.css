@@ -1,0 +1,14 @@
+.stylistic-modal .iziModal-header {
+  padding-left: 25px;
+}
+.stylistic-modal .iziModal-header .iziModal-header-title:before {
+  display: none;
+}
+.stylistic-modal .iziModal-content {
+  padding: 25px !important;
+}
+.stylistic-modal .iziModal-content p {
+  font-size: 1em;
+}
+
+/*# sourceMappingURL=stylistic-modal.css.map */
